@@ -9,7 +9,7 @@ export default async function FeaturedPosts() {
     // => prop
 
     return (
-        <section>
+        <section className='my-4'>
             <h2 className='text-2xl font-bold my-2'>Featured Posts</h2>
             {/* grid - resuable */}
             <PostsGrid posts={posts}/>

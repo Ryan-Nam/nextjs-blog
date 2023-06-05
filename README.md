@@ -51,8 +51,12 @@ Featured posts
     - des
     - category
 - styling
+    - mouse hover
 
 Carousel Post
+- Library: https://github.com/YIZHUANG/react-multi-carousel
+
+
 
 post page with filter
 - code
