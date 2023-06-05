@@ -42,9 +42,14 @@ Profile
 - code
 - styling
 
-Featured post
+Featured posts
 - code
 - card
+    - img
+    - date
+    - title
+    - des
+    - category
 - styling
 
 Carousel Post
