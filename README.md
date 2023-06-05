@@ -56,10 +56,10 @@ Featured posts
 Carousel Post
 - Library: https://github.com/YIZHUANG/react-multi-carousel
 
-
-
 post page with filter
 - code
+    - post page
+    - filtering
 - styling
 
 Blog post page
