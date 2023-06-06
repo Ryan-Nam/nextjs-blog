@@ -63,3 +63,7 @@ post page with filter
 - styling
 
 Blog post page
+- 
+
+using markdown Lib to make the blog post more prettier
+

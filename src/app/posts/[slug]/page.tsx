@@ -1,3 +1,4 @@
+import MarkdownViewer from '@/components/MarkdownViewer';
 import { getPostData } from '@/service/posts';
 
 type Props = {
@@ -13,8 +14,9 @@ export default async function PastPage({params: {slug}}: Props) {
     const post = await getPostData(slug);
     return (
         <>
-        <h1>{post.title}</h1>
-        <pre>{post.content}</pre>
+            <h1>{post.title}</h1>
+            {/* <pre>{post.content}</pre> */}
+            <MarkdownViewer content={post.content}/>
         </>
     );
 }
